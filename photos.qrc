@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>photo/big.png</file>
+        <file>photo/gimbal-small-2-removebg-preview.png</file>
+        <file>photo/small.png</file>
+        <file>photo/backgraundCar-removebg-preview.png</file>
+        <file>photo/gray.png</file>
+        <file>photo/green.png</file>
+        <file>photo/Logo_no_name.jpg</file>
+        <file>photo/Logo_with_name.png</file>
+        <file>photo/red.png</file>
+        <file>photo/yellow.png</file>
+    </qresource>
+</RCC>

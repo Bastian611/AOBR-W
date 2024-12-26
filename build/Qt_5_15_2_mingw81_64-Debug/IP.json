@@ -1,0 +1,21 @@
+{
+    "Acousticcontrol": {
+        "ip": "192.168.1.200",
+        "port": "9527"
+    },
+    "AcousticcontrolUDP": {
+        "ip": "192.168.1.200",
+        "port": "8999"
+    },
+    "Gimbal": {
+        "ip": "192.168.1.7",
+        "port": "23"
+    },
+    "OwWarnning": {
+        "url": "ws://192.168.1.16:9801/subscribe"
+    },
+    "StrongLight": {
+        "ip": "192.168.1.71",
+        "port": "23"
+    }
+}

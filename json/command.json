@@ -1,0 +1,113 @@
+{
+    "MP3播放模式": {
+        "上一首指令": {
+            "command": "pre_play",
+            "cseq": "1"
+        },
+        "下一首指令": {
+            "command": "next_play",
+            "cseq": "1"
+        },
+        "单曲循环指令": {
+            "command": "repeat_play",
+            "cseq": "1",
+            "index": "-1"
+        },
+        "开始播放指令": {
+            "command": "start_play",
+            "cseq": "1",
+            "index": "0"
+        },
+        "暂停指令": {
+            "command": "stop_play",
+            "cseq": "1"
+        }
+    },
+    "一键驱散模式": {
+        "播放指定路径音频文件": {
+            "command": "one_key",
+            "cseq": "1",
+            "index": "/xmedia/onekey/alarm.mp3"
+        },
+        "播放文件列表文件": {
+            "command": "one_key",
+            "cseq": "1",
+            "index": "1"
+        }
+    },
+    "切换播放格式": {
+        "一键驱散模式": {
+            "command": "model_change",
+            "cseq": "1",
+            "model": "one_key"
+        },
+        "外部音源输入模式": {
+            "command": "model_change",
+            "cseq": "1",
+            "model": "input_sound"
+        },
+        "录音喊话模式": {
+            "command": "model_change",
+            "cseq": "1",
+            "model": "record"
+        },
+        "普通播放器模式": {
+            "command": "model_change",
+            "cseq": "1",
+            "model": "player"
+        },
+        "空闲模式": {
+            "command": "model_change",
+            "cseq": "1",
+            "model": "idle"
+        },
+        "远程接口喊话模式": {
+            "command": "model_change",
+            "cseq": "1",
+            "model": "mic_broadcast"
+        }
+    },
+    "实时文件播放": {
+        "上传mp3文件播放": {
+            "command": "mp3_stream_play",
+            "cseq": "1",
+            "mp3_len": "23454"
+        }
+    },
+    "常连接": {
+        "command": "online",
+        "cseq": "1"
+    },
+    "播放和采集音量": {
+        "播放音量控制": {
+            "command": "play_vol",
+            "cseq": "1",
+            "vol": "20"
+        },
+        "读取采集音量和播放音量": {
+            "command": "get_vol",
+            "cseq": "1"
+        },
+        "采集音量控制": {
+            "command": "cap_vol",
+            "cseq": "1",
+            "vol": "20"
+        }
+    },
+    "获取MP3播放列表": {
+        "更新播放列表": {
+            "command": "reload_play_list",
+            "cseq": "1"
+        },
+        "获取播放列表": {
+            "command": "get_play_list",
+            "cseq": "1"
+        }
+    },
+    "获取当前状态": {
+        "获取当前状态": {
+            "command": "get_status",
+            "cseq": "1"
+        }
+    }
+}

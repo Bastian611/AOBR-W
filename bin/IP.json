@@ -1,0 +1,9 @@
+{
+    "Acousticcontrol": {
+        "ip": "192.168.1.200",
+        "port": "9527"
+    },
+    "OwWarnning": {
+        "url": "ws://192.168.1.16:9801/subscribe"
+    }
+}
